@@ -89,7 +89,6 @@ button_subtraction = Button(root,text="-",padx=43,pady=20,command=subtraction)
 button_multiply = Button(root,text="*",padx=43,pady=20,command=multiply)
 button_division = Button(root,text="/",padx=43,pady=20,command=division)
 button_equal = Button(root,text="=",padx=43,pady=20,bg="cyan",command=equal)
-button_e2 = Button(root,text="=",padx=43,pady=20,bg="cyan")
 
 
 
@@ -114,7 +113,6 @@ button_division.grid(row=5,column=0)
 button_equal.grid(row=5,column=1)
 button_multiply.grid(row=5,column=2)
 button_clear.grid(row=6,column=0,columnspan=3)
-button_e2.grid(row=7,column=0)
 
 
 root.mainloop()
